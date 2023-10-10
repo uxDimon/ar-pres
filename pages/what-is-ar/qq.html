@@ -1,0 +1,21 @@
+---
+layout: center
+clicks: 3
+preload: false
+---
+
+# Что такое AR
+
+
+Эффект дополненной реальности достигается с помощью наложения 2х изображений.
+
+<ul>
+    <li v-click="1">Формируется кадр из камеры устройства</li>
+    <li v-click="2">Затем рендерится кадр с 3d сценой</li>
+    <li v-click="3">Потом на кадр из камеры накладывается кадр из 3d сцены</li>
+</ul>
+
+<div class="relative flex justify-center gap-8 mt-4">
+    <img v-click="2" src="/img/scene.png" width="300" height="300" />
+    <img v-click="1" src="/img/scrin.png" width="300" height="300" />
+</div>

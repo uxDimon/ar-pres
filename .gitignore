@@ -3,6 +3,7 @@ node_modules
 dist
 *.local
 index.html
+!docs/index.html
 .remote-assets
 components.d.ts
 dist

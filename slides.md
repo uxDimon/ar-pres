@@ -1,7 +1,7 @@
 ---
 theme: default
 layout: image
-image: "./img/start.jpg"
+image: "/img/start.jpg"
 fonts:
     sans: "Inter"
     serif: "Robot Slab"
